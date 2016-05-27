@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteBase /riset/ci
+
+# url tidak boleh akhiran slash, kalau itu bukan directory
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+# jika bukan file dan bukan directory
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# index.php/URL
+RewriteRule ^(.*)$ index.php/$1 [PT,L]

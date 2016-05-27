@@ -1,6 +1,6 @@
 Tanggal Mulai: 201605272134
 Oleh: Mayendra Costanov - anovsiradj (anov.siradj(22@(gmail|live).com)|@gi.co.id)
-PT. GlobalIntermedia Nusantara (gi.co.id)
+Didukung: PT. GlobalIntermedia Nusantara (gi.co.id)
 
 ---
 
@@ -19,15 +19,20 @@ Sebagai awal, saya akan mengikuti setiap default ketentuan dari fw ini.
 
 ---
 
-# KONTROL REVISI
+# Kontrol Revisi
 
 dokumetasikan di github. gitg __/system__, karena saya tidak akan nyentuh core-nya.
 
 ---
 
-# Controller
+# Mengatur Htaccess
 
-Membuat ct.
+Comot2 dari Laravel.
+
+---
+
+# Controller
+201605272209
 
 ---
 
