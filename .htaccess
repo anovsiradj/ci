@@ -1,8 +1,7 @@
 RewriteEngine On
-Options -MultiViews
+# Options -MultiViews
 
 RewriteBase /riset/ci/
-
 
 # jika bukan file dan bukan directory
 RewriteCond %{REQUEST_FILENAME} !-d
